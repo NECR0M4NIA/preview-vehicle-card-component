@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container1 {
+    width: 400px;
+    height: 550px;
+    background-color: #E28625;
+    padding-left: 58px;
+    padding-right: 58px;
+    padding-top: 58px;
+    padding-bottom: 20px;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.container2 {
+    width: 400px;
+    height: 550px;
+    background-color: #006971;
+    padding-left: 58px;
+    padding-right: 58px;
+    padding-top: 58px;
+    padding-bottom: 20px;
+}
+
+.container3 {
+    width: 400px;
+    height: 550px;
+    background-color: #004140;
+    padding-left: 58px;
+    padding-right: 58px;
+    padding-top: 58px;
+    padding-bottom: 20px;
+    border-radius: 0px 12px 12px 0px;
+}
+
+.header-container {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+.card-description {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+
+.component1-button {
+    font-family: "Lexend Deca", sans-serif;
+    color: #E28625;
+    font-size: 16px;
+    font-weight: 400;
+    width: 176px;
+    background-color: white;
+    border-radius: 24px;
+    padding: 14px 38px;
+    border: 2px solid white;
+    transition: 150ms;
+    margin-top: 100px;
+}
+
+.component1-button:hover {
+    background-color: #E28625;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.component2-button {
+    font-family: "Lexend Deca", sans-serif;
+    color: #006971;
+    font-size: 16px;
+    font-weight: 400;
+    width: 176px;
+    background-color: white;
+    border-radius: 24px;
+    padding: 14px 38px;
+    border: 2px solid white;
+    transition: 150ms;
+    margin-top: 100px;
+}
+
+.component2-button:hover {
+    background-color: #006971;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.component3-button {
+    font-family: "Lexend Deca", sans-serif;
+    color: #004140;
+    font-size: 16px;
+    font-weight: 400;
+    width: 176px;
+    background-color: white;
+    border-radius: 24px;
+    padding: 14px 38px;
+    border: 2px solid white;
+    transition: 150ms;
+    margin-top: 100px;
+}
+
+.component3-button:hover {
+    background-color: #004140;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 920px) {
+    .main-container {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .container1 {
+        width: 400px;
+        height: 550px;
+        background-color: #E28625;
+        padding-left: 58px;
+        padding-right: 58px;
+        padding-top: 58px;
+        padding-bottom: 20px;
+        border-radius: 12px 0px 0px 12px;
+    }
+
+    .container2 {
+        width: 400px;
+        height: 550px;
+        background-color: #006971;
+        padding-left: 58px;
+        padding-right: 58px;
+        padding-top: 58px;
+        padding-bottom: 20px;
+    }
+
+    .container3 {
+        width: 400px;
+        height: 550px;
+        background-color: #004140;
+        padding-left: 58px;
+        padding-right: 58px;
+        padding-top: 58px;
+        padding-bottom: 20px;
+        border-radius: 0px 12px 12px 0px;
+    }
+
+    .container1 {
+        border-radius: 0px;
+    }
+
+    .container3 {
+        border-radius: 0px;
+    }
+
+    .container2 {
+        border-radius: 0px;
+    }
+}
